@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         webView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
         webView.loadUrl("http://mohamdibrahem.com");
         webView.setWebViewClient(new WebViewClient());
+
         CookieManager.getInstance().setAcceptCookie(true);
 
     }
